@@ -2,6 +2,21 @@
 
 <html>
    <body>
-       <h2>Hello world!!!!!</h2>
+       <h2>Simple calculator</h2>
+
+         <form action="addNumbers" method="post">
+
+                 <label for="num1">First Number:</label>
+                 <input type="number" id="num1" name="num1" required>
+                 <br><br>
+
+                 <label for="num2">Second Number:</label>
+                 <input type="number" id="num2" name="num2" required>
+                 <br><br>
+
+                 <button type="submit">Submit</button>
+
+             </form>
+
    </body>
 </html>
